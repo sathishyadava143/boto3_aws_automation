@@ -8,18 +8,18 @@ Configuration AWS_CLI in WINDOWS or Linux
 
 Ubunutu:
 --------
-# snap install aws-cli --classic
+$ snap install aws-cli --classic
 
 RHEL and Other-Distribution:
 ----------------------------
 
-# curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-# unzip awscli-bundle.zip
-# sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+$ unzip awscli-bundle.zip
+$ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 Configure aws-cli:
 ------------------
-# aws configure
+$ aws configure
 
 AWS Access Key ID : xxxxxxxxxxxxxxxxxxxxx
 AWS Secret Access Key : xxxxxxxxxxxxxxxxxxxxxxx
@@ -31,7 +31,7 @@ WINDOWS_AWS-CLI:
 
 download aws-cli masi installer: https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi
 
-# aws --version
+$ aws --version
 
 without AWS-cli through pass a AWS Access Key ID and AWS Secret Access Key python script itself but its an risky way!.
 
